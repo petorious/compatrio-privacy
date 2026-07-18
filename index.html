@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Compatrio</title>
+<meta name="description" content="How Compatrio handles your data. Short version: it stays on your phone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBF7F2;
+    --paper-deep:#F4EDE4;
+    --ink:#2E2723;
+    --ink-soft:#6E625A;
+    --terracotta:#B65535;
+    --sage:#5F7563;
+    --sage-wash:#EDF1EC;
+    --rule:#E3D8CC;
+    --measure:37rem;
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+
+  html{-webkit-text-size-adjust:100%}
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;
+    font-size:17px;
+    line-height:1.68;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .wrap{
+    max-width:var(--measure);
+    margin:0 auto;
+    padding:0 1.5rem 6rem;
+  }
+
+  /* ---------- masthead ---------- */
+
+  header.masthead{
+    padding:5rem 0 2.75rem;
+  }
+
+  .eyebrow{
+    font-size:.7rem;
+    font-weight:800;
+    letter-spacing:.19em;
+    text-transform:uppercase;
+    color:var(--terracotta);
+    margin:0 0 1.1rem;
+  }
+
+  h1{
+    font-size:clamp(2.1rem,6.5vw,2.9rem);
+    font-weight:800;
+    line-height:1.12;
+    letter-spacing:-.021em;
+    margin:0 0 1.1rem;
+  }
+
+  .standfirst{
+    font-size:1.14rem;
+    color:var(--ink-soft);
+    margin:0;
+    max-width:31rem;
+  }
+
+  .dateline{
+    margin-top:2.25rem;
+    padding-top:1.25rem;
+    border-top:1px solid var(--rule);
+    font-size:.86rem;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- signature: the never panel ---------- */
+
+  .never{
+    background:var(--sage-wash);
+    border-left:3px solid var(--sage);
+    border-radius:0 14px 14px 0;
+    padding:1.9rem 1.75rem 1.6rem;
+    margin:0 0 3.25rem;
+  }
+
+  .never h2{
+    font-size:1.06rem;
+    font-weight:800;
+    margin:0 0 1.1rem;
+    letter-spacing:-.008em;
+    color:var(--sage);
+  }
+
+  .never ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+
+  .never li{
+    position:relative;
+    padding-left:1.65rem;
+    margin-bottom:.72rem;
+    font-size:1rem;
+  }
+
+  .never li:last-child{margin-bottom:0}
+
+  .never li::before{
+    content:"";
+    position:absolute;
+    left:.1rem;
+    top:.72em;
+    width:.72rem;
+    height:2px;
+    background:var(--sage);
+    border-radius:2px;
+  }
+
+  .never strong{font-weight:800}
+
+  /* ---------- body sections ---------- */
+
+  section{
+    padding-top:2.6rem;
+    scroll-margin-top:1.5rem;
+  }
+
+  section + section{
+    border-top:1px solid var(--rule);
+  }
+
+  h2{
+    font-size:1.32rem;
+    font-weight:800;
+    letter-spacing:-.014em;
+    line-height:1.3;
+    margin:0 0 .95rem;
+  }
+
+  h3{
+    font-size:1rem;
+    font-weight:800;
+    margin:1.9rem 0 .5rem;
+    color:var(--terracotta);
+  }
+
+  p{margin:0 0 1.05rem}
+
+  ul.plain{
+    margin:0 0 1.15rem;
+    padding-left:1.15rem;
+  }
+
+  ul.plain li{
+    margin-bottom:.52rem;
+    padding-left:.25rem;
+  }
+
+  ul.plain li::marker{color:var(--terracotta)}
+
+  a{
+    color:var(--terracotta);
+    text-decoration-thickness:1px;
+    text-underline-offset:2.5px;
+  }
+
+  a:hover{text-decoration-thickness:2px}
+
+  a:focus-visible{
+    outline:2px solid var(--terracotta);
+    outline-offset:3px;
+    border-radius:2px;
+  }
+
+  .callout{
+    background:var(--paper-deep);
+    border-radius:12px;
+    padding:1.2rem 1.35rem;
+    margin:0 0 1.15rem;
+    font-size:.97rem;
+  }
+
+  .callout p:last-child{margin-bottom:0}
+
+  .lede{
+    font-size:1.06rem;
+    font-weight:600;
+  }
+
+
+  footer{
+    margin-top:3.4rem;
+    padding-top:1.6rem;
+    border-top:1px solid var(--rule);
+    font-size:.86rem;
+    color:var(--ink-soft);
+  }
+
+  @media (max-width:520px){
+    body{font-size:16.5px}
+    header.masthead{padding:3.25rem 0 2rem}
+    .never{padding:1.5rem 1.35rem 1.3rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Compatrio</p>
+    <h1>Privacy Policy</h1>
+    <p class="standfirst">Compatrio helps you stay in touch with people you care about. To do that it needs a little trust, so here is exactly what it does with your information.</p>
+    <p class="dateline">Last updated July 18, 2026 &nbsp;·&nbsp; Applies to the Compatrio Android app</p>
+  </header>
+
+  <div class="never">
+    <h2>What Compatrio never does</h2>
+    <ul>
+      <li>It <strong>never reads your text messages.</strong> Compatrio does not request permission to read your inbox, and it cannot see any message anyone sends you.</li>
+      <li>It <strong>never sends a message you haven't seen.</strong> Every message is shown to you for approval before it goes anywhere.</li>
+      <li>It <strong>never uploads your contacts</strong> to us or anyone else. Your people stay on your phone.</li>
+      <li>It <strong>never sells your information</strong> or shares it with advertisers. There are no ads in Compatrio.</li>
+    </ul>
+  </div>
+
+  <section id="who">
+    <h2>Who runs Compatrio</h2>
+    <p>Compatrio is built and operated by Petorious. If you have a question about privacy, or want something removed, write to <a href="mailto:petorious.dev@gmail.com">petorious.dev@gmail.com</a> and a real person will answer.</p>
+  </section>
+
+  <section id="stays-on-phone">
+    <h2>Your relationship data stays on your phone</h2>
+    <p class="lede">Compatrio stores the people you add, and everything you record about them, in a database on your own device.</p>
+    <p>That includes their name and phone number, the relationship category and reminder schedule you choose, any notes you write about them, details like occupation, interests, or birthday, a photo if you add one, and the history of messages Compatrio has helped you send.</p>
+    <p>None of this is uploaded to a server. We do not have a copy of it, and we cannot see it. If your phone is lost or reset, that information is gone unless you have your own device backup.</p>
+    <div class="callout">
+      <p><strong>You add contacts yourself.</strong> Compatrio does not request access to your phone's address book. You type in the people you want to keep up with, which means the app never sees anyone you didn't deliberately add.</p>
+    </div>
+  </section>
+
+  <section id="messages">
+    <h2>How messages are sent</h2>
+    <p>When you approve a message, Compatrio asks Android to send it as an ordinary text message from your own phone number, using your normal mobile service. It arrives the way any text from you would.</p>
+    <p>This means two things worth understanding:</p>
+    <ul class="plain">
+      <li>Your carrier handles the message, and standard message rates apply. Your carrier's own privacy practices govern what happens in transit — the same as any text you send.</li>
+      <li>The message never passes through our servers. We have no record of what you sent, only what your own device stores locally so the app can show you your history.</li>
+    </ul>
+    <p>Compatrio may also open your phone's dialer with a contact's number filled in, when it suggests a call. It never places a call on its own — you decide whether to press the button.</p>
+  </section>
+
+  <section id="permissions">
+    <h2>The permissions Compatrio asks for, and why</h2>
+
+    <h3>Send SMS</h3>
+    <p>Required for the core function of the app: sending the message you approved. This permission allows sending only. It does not grant the ability to read your messages, and Compatrio does not request the separate permissions that would.</p>
+
+    <h3>Notifications</h3>
+    <p>So Compatrio can remind you when it's a good moment to reach out.</p>
+
+    <h3>Alarms &amp; reminders, and battery optimization</h3>
+    <p>Reminders are useless if they arrive late. These permissions let Compatrio wake up at the right time even when your phone has been idle. They involve no data collection whatsoever. You can decline them, and the app will tell you plainly that reminders may not arrive on time.</p>
+
+    <h3>Photos</h3>
+    <p>Only if you choose to add a photo to a contact. Compatrio receives a reference to the single image you pick. It does not browse your gallery and does not upload the photo anywhere.</p>
+
+    <p>You can review or withdraw any of these at any time in your device settings.</p>
+  </section>
+
+  <section id="diagnostics">
+    <h2>Diagnostics and app usage</h2>
+    <p>Compatrio uses Google Firebase for two limited purposes.</p>
+
+    <h3>Crash reporting (Firebase Crashlytics)</h3>
+    <p>When the app crashes, a technical report is sent so the problem can be fixed. It contains information about the failure — device model, operating system version, and where in the code the crash occurred. It does not contain your contacts, your notes, or the content of your messages.</p>
+
+    <h3>Usage analytics (Firebase Analytics)</h3>
+    <p>Compatrio records anonymous, aggregate information about how the app is used: which screens are opened, how long they're used, where people get stuck during setup, and how often core actions happen — a message approved, a reminder snoozed, a contact added.</p>
+    <p>These events record that something happened, not who it happened with. No contact name, phone number, note, or message content is ever included.</p>
+    <p>Google processes this data on our behalf. See <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a> for how they handle it. You can opt out of analytics collection in Compatrio's settings.</p>
+  </section>
+
+  <section id="ai">
+    <h2>AI features</h2>
+    <p>Some Compatrio features are designed to use an AI model, operated by Anthropic, to help draft or suggest messages. <strong>These features are currently switched off.</strong> Nothing is being sent to any AI provider today.</p>
+    <p>When they are turned on, they will work like this: they will be optional, they will run only when you ask for them, and the information sent will be limited to what's needed to write that one message — such as the contact's first name and the notes you've written about them.</p>
+    <p>Message drafts are not used to train anyone's AI models. If this changes in any meaningful way, this policy will be updated and you will be told inside the app before it takes effect.</p>
+  </section>
+
+  <section id="children">
+    <h2>Children</h2>
+    <p>Compatrio is intended for adults and is not directed at children under 13. We do not knowingly collect information from children. If you believe a child has used the app and provided information, contact us and we'll help resolve it.</p>
+  </section>
+
+  <section id="deleting">
+    <h2>Deleting your data</h2>
+    <p>Because everything lives on your device, you are in direct control of it.</p>
+    <ul class="plain">
+      <li><strong>Remove one person.</strong> Deleting a contact in Compatrio also deletes their notes, message history, and any scheduled messages.</li>
+      <li><strong>Remove everything.</strong> Uninstalling Compatrio, or clearing its data in your device settings, permanently erases the entire database.</li>
+      <li><strong>Diagnostics.</strong> To request deletion of crash or analytics data associated with your device, write to <a href="mailto:petorious.dev@gmail.com">petorious.dev@gmail.com</a>.</li>
+    </ul>
+    <p>There is no account to close, because there is no account.</p>
+  </section>
+
+  <section id="future">
+    <h2>If this changes</h2>
+    <p>Compatrio may one day offer optional accounts and syncing across devices. That would mean storing some of your information on a server, which is a real change to everything described above. It is not how the app works today.</p>
+    <p>If it ever does, this policy will be updated first, you will be told inside the app, and syncing will be something you choose rather than something that happens to you.</p>
+  </section>
+
+  <section id="changes">
+    <h2>Changes to this policy</h2>
+    <p>When this policy changes, the date at the top changes with it. For anything significant, you'll be notified in the app rather than left to notice on your own.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Questions, concerns, or a request about your data: <a href="mailto:petorious.dev@gmail.com">petorious.dev@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>Compatrio · Petorious · Austin, Texas</p>
+  </footer>
+
+</div>
+</body>
+</html>
